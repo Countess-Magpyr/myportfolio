@@ -4,19 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rebecca Krebs | About Me" />
+    <title>Dr. Rebecca Krebs | About me</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://kit.fontawesome.com/9f7b261f40.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>About Rebecca Krebs</title>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -42,26 +55,44 @@
               <a class="nav-link active" href="about.html">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="contact.html">Contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from Düsseldorf, Germany</h3>
+    <h3 class="text-center m-5">
+      Front-end developer and biologist based in Germany
+    </h3>
+    <div class="row">
+    <div class="col d-none d-md-block mb-5">
+          <img src="images/Rebecca.jpg" class="img-fluid p-2 shadow rounded" />
+        </div>
+    <div class="col">
     <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
+      <p class="aboutmetext text-center mb-5">
+        Nice to meet you! My academic background is in biology; specifically in
+        evolution and ecology. During my Master´s degree and PhD, I completed
+        behavioural experiments, parentage analysis using microsattelites and
+        data analysis in R using non-parametic and bayesian statistics. During
+        my studies, I realized that I enjoy designing posters, presentations and
+        networking. After my studies were complete, I became a teacher, working
+        in private schools which emphasize learning through project work and
+        play, teaching science with fun labs and projects. Privately, my
+        interests are in design and sketching. I am currently taking courses to
+        learn to be a software developer and would love to marry my interest in
+        science and education to coding and design. In my free time, I enjoy travel, coding, sketching and tickling rodents.
       </p>
+      </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/rattickler.jpg"
+            class="img-fluid p-2 shadow rounded"
+          />
         </div>
         <div class="col-sm-4">
           <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
@@ -71,11 +102,28 @@
         </div>
       </div>
     </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:rebecca.krebs.wheaton@gmail.com" class="email-link">
-        rebecca.krebs.wheaton@gmail.com
+<div class="container my-5">
+
+    <div class="container my-5">
+
+  <footer class="text-center text-lg-start">
+    <div class="container d-flex justify-content-center py-5">
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #bca0dc;">
+       <a href="https://www.facebook.com/iisfee/" class="link"> <i class="fab fa-facebook-square"></i> </a>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #bca0dc;">
+       <a href="mailto:rebecca.krebs.wheaton@gmail.com" class="email-link"><i class="fas fa-envelope-square"> </i>
       </a>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #bca0dc;">
+       <a href="https://www.instagram.com/iisfee/" class="link"> <i class="fab fa-instagram-square"></i> </a>
+  
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #bca0dc;">
+       <a href="https://www.linkedin.com/in/rebecca-krebs-618784211/" class="link"> <i class="fab fa-linkedin"></i> </a>
+      </button>
     </div>
+  
   </body>
 </html>
+
