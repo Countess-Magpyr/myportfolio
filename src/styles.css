@@ -25,6 +25,14 @@ p {
   line-height: 30px;
 }
 
+.abouttext {
+  display: block;
+  margin: 0 auto;
+}
+.img-fluid {
+  max-width: 300px;
+}
+
 .hero {
   background-color: #f9f7fe;
   text-align: center;
